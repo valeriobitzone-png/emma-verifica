@@ -6,7 +6,8 @@ import requests
 
 API = "https://it.wikipedia.org/w/api.php"
 UA = {"User-Agent": "emma-grounding-demo/0.1 (ricerca; https://github.com/valeriobitzone-png/emma-verifica)"}
-CACHE = Path(__file__).resolve().parent.parent / "cache" / "wiki"
+import os
+CACHE = Path(os.environ.get("EMMA_WIKI_CACHE") or Path(__file__).resolve().parent.parent / "cache" / "wiki")
 STOP = set("il lo la i gli le un uno una di a da in con su per tra fra e o che chi è qual quale quali quanto quanti "
            "quante come dove quando cosa del della dei degli delle al alla ai agli alle dal dalla nel nella sul sulla "
            "ha sono era stato stata anno anni si non più ci ne d l".split())
@@ -75,11 +76,11 @@ def search(query: str, k: int = 3, extra_titles: list[str] = ()) -> list[dict]:
     if not hits:
         return []
     titles = "|".join(h["title"] for h in hits[:20])
-    pages = _get({"action": "query", "prop": "extracts", "exintro": 1, "explaintext": 1, "redirects": 1,
-                  "titles": titles})["query"]["pages"]
-    by = {p["title"]: p.get("extract", "") for p in pages}
-    # segue i redirect (es. "Pinocchio" -> titolo reale)
-    q = _get({"action": "query", "redirects": 1, "titles": titles})["query"]
+    q = _get({"action": "query", "prop": "extracts", "exintro": 1, "explaintext": 1, "redirects": 1,
+              "titles": titles})["query"]
+    by = {p["title"]: p.get("extract", "") for p in q["pages"]}
+    # segue i redirect (es. "Pinocchio" -> titolo reale). Latenza: i redirect sono già nella stessa risposta,
+    # prima si faceva una terza chiamata di rete identica solo per leggerli.
     for r in q.get("redirects", []):
         by.setdefault(r["from"], by.get(r["to"], ""))
     return [{"title": h["title"], "text": by.get(h["title"], "")} for h in hits if by.get(h["title"])]

@@ -20,7 +20,7 @@ def build_prompt(user_msg: str) -> str:
 class EmmaGGUF:
     def __init__(self, path: str | None = None, n_threads: int | None = None):
         from llama_cpp import Llama
-        path = path or str(MODEL_DIR / "emma-6-Q8_0.gguf")
+        path = path or os.environ.get("EMMA_GGUF") or str(MODEL_DIR / "emma-6-Q8_0.gguf")
         self.llm = Llama(model_path=path, n_ctx=4096, n_threads=n_threads or os.cpu_count(),
                          n_batch=512, verbose=False, seed=0)
 
@@ -29,6 +29,18 @@ class EmmaGGUF:
         out = self.llm.create_completion(prompt=prompt, max_tokens=max_tokens, temperature=0.0,
                                          top_k=1, stop=STOP, repeat_penalty=1.1)
         return out["choices"][0]["text"].strip(), time.time() - t
+
+    def generate_until(self, prompt: str, done, max_tokens: int = 96) -> tuple[str, float]:
+        """Come generate(), ma in streaming: si ferma appena done(testo_parziale) è vero.
+        Latenza: la pipeline usa solo la prima frase utile, i token successivi erano sprecati."""
+        t = time.time(); text = ""
+        it = self.llm.create_completion(prompt=prompt, max_tokens=max_tokens, temperature=0.0, top_k=1,
+                                        stop=STOP, repeat_penalty=1.1, stream=True)
+        for ch in it:
+            text += ch["choices"][0]["text"]
+            if done(text):
+                it.close(); break
+        return text.strip(), time.time() - t
 
 
 class EmmaONNX:

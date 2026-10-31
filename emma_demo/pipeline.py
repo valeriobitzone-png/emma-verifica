@@ -119,14 +119,32 @@ def statement(q: str) -> str:
     return q.strip().rstrip("?").strip() + "."
 
 
+_BOUND = re.compile(r"[.!?](?=\s)|\n")
+
+
+def sentence_done(question: str):
+    """Criterio di arresto anticipato: c'è già una frase completa (seguita da spazio/a capo) che first_sentence
+    accetterebbe. Il resto del testo verrebbe comunque scartato da first_sentence."""
+    def done(text: str) -> bool:
+        ends = [m.end() for m in _BOUND.finditer(text)]
+        return bool(ends) and bool(first_sentence(text[:ends[-1]], question))
+    return done
+
+
 class Pipeline:
-    def __init__(self, emma):
+    def __init__(self, emma, early_stop: bool = True):
         self.emma = emma
+        self.early_stop = early_stop
 
     def _ask(self, q: str, passage: str) -> str:
         prompt = (f"Contesto: {passage}\n"
                   + build_prompt(f"Rispondi in una frase breve usando solo le informazioni del contesto. {q}")[1:])
-        return self.emma.generate(prompt, max_tokens=64)[0]
+        return self._gen(prompt, 64, q)
+
+    def _gen(self, prompt: str, max_tokens: int, q: str) -> str:
+        if self.early_stop and hasattr(self.emma, "generate_until"):
+            return self.emma.generate_until(prompt, sentence_done(q), max_tokens=max_tokens)[0]
+        return self.emma.generate(prompt, max_tokens=max_tokens)[0]
 
     def answer(self, q: str) -> dict:
         t0 = time.time()
@@ -134,7 +152,7 @@ class Pipeline:
         if r:  # ---- (a) strumenti deterministici; Emma verbalizza il risultato
             prompt = (f"Contesto: risultato verificato da uno strumento di calcolo: {r['risultato']}.\n"
                       + build_prompt(f"{q} Rispondi con una frase breve usando esattamente il risultato del contesto.")[1:])
-            raw, _ = self.emma.generate(prompt, max_tokens=48)
+            raw = self._gen(prompt, 48, q)
             gen = first_sentence(raw, q)
             ok = bool(re.search(r"(?<![\w,.])" + re.escape(norm(r["risultato"])) + r"(?![\w]|[.,]\d)", norm(gen))) and _numbers(gen) <= _numbers(r["risultato"]) | _numbers(q)
             return {"percorso": "strumento:" + r["tool"], "risultato_strumento": r["risultato"], "emma_grezza": raw,
