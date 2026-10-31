@@ -4,6 +4,8 @@ Un piccolo esperimento aperto: prendere [Emma-6](https://huggingface.co/egomnia/
 
 È un contributo, non una critica. Emma-6 è un modello piccolo (1,55 miliardi di parametri), addestrato da zero in italiano, e la stessa model card indica allucinazioni e inesattezze tra i limiti noti. Per un modello di queste dimensioni, dire "non lo so" o appoggiarsi a una fonte è più realistico che sapere tutto. Questo repo prova a misurarlo.
 
+**Demo online (risultati reali di heldout3, a confronto):** https://huggingface.co/spaces/Ambrogio26/emma-verifica-demo
+
 ## Come funziona
 
 Emma-6 resta sempre il generatore. Intorno ci sono quattro passaggi (`emma_demo/pipeline.py`):
