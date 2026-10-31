@@ -20,3 +20,16 @@ Esiti pipeline heldout3 run2: fallback_strumento 20, fallback_estrattivo 17, emm
 - Il primo run di heldout3 (risultati/report_heldout3.json, codice precedente a v3b, 15:05) dava migliorata 0.450 acc., 0.017 alluc., 0.483 astensioni (25 `nessuna_fonte`). Il run2 è quello di riferimento.
 - Latenze del run2 (anche baseline 3.40 s contro ~0.8 s nel run1) probabilmente gonfiate da carico concorrente della CPU/rete: non confrontabili con gli altri set.
 - Storico: risultati storici (non inclusi) (v1) migliorata 0.542 acc. / 0.333 alluc.; report.json, report_heldout*.json, report_v3dev_*.json sono versioni intermedie.
+
+## Latenza (run del 31/10, codice prima/dopo il branch latency)
+
+Ottimizzazioni (branch `latency`): Emma genera in streaming e si ferma alla prima frase utile; l'NLI elabora frasi e passaggio in batch separati (niente padding inutile) con tutti i core; una chiamata all'API di Wikipedia in meno (i redirect erano già nella risposta).
+Misure reali sul box di sviluppo (CPU 8 core), heldout3, n=60, stessa cache Wikipedia congelata per prima e dopo:
+
+| Pipeline | Accur. | Alluc. | Lat. media | Lat. p95 |
+|---|---|---|---|---|
+| prima | 0,717 | 0,033 | 2,16 s | 5,32 s |
+| dopo | 0,717 | 0,033 | 1,48 s | 3,61 s |
+
+Accuratezza e allucinazioni invariate (cambia una sola risposta, n36, sempre corretta). Report: `risultati/latency/`.
+

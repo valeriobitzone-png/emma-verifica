@@ -56,6 +56,18 @@ Set usati durante lo sviluppo (risultati **ottimistici**, vedi `risultati.md`):
 | heldout | 24 | 20,8% → 83,3% | 75,0% → 4,2% |
 | heldout2 | 22 | 18,2% → 81,8% | 77,3% → 0,0% |
 
+## Latenza
+
+Ottimizzazioni (branch `latency`): Emma genera in streaming e si ferma alla prima frase utile; l'NLI elabora frasi e passaggio in batch separati (niente padding inutile) con tutti i core; una chiamata all'API di Wikipedia in meno (i redirect erano già nella risposta).
+Misure reali sul box di sviluppo (CPU 8 core), heldout3, n=60, stessa cache Wikipedia congelata per prima e dopo:
+
+| Pipeline | Accur. | Alluc. | Lat. media | Lat. p95 |
+|---|---|---|---|---|
+| prima | 0,717 | 0,033 | 2,16 s | 5,32 s |
+| dopo | 0,717 | 0,033 | 1,48 s | 3,61 s |
+
+Accuratezza e allucinazioni invariate (cambia una sola risposta, n36, sempre corretta). Report: `risultati/latency/`.
+
 ## Limiti, detti onestamente
 
 - Le allucinazioni sono **ridotte, non eliminate**.
