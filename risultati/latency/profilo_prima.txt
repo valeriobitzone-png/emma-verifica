@@ -1,0 +1,23 @@
+{"import_s": 0.07, "load_emma_s": 1.43, "load_nli_s": 7.59}
+{"pass": 0, "id": "n1", "tot": 1.2, "router": 0.0, "emma_gen": 1.2, "emma_calls": 1.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 0, "id": "n13", "tot": 1.33, "router": 0.0, "emma_gen": 1.33, "emma_calls": 1.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 0, "id": "n25", "tot": 8.4, "router": 0.0, "rete_wiki": 2.2, "retrieval_tot": 2.21, "emma_gen": 3.7, "emma_calls": 1.0, "nli": 2.49, "esito": "emma_verificata", "retrieval_cpu": 0.01}
+{"pass": 0, "id": "n28", "tot": 6.13, "router": 0.0, "rete_wiki": 2.26, "retrieval_tot": 2.26, "emma_gen": 2.31, "emma_calls": 1.0, "nli": 1.56, "esito": "emma_verificata", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n34", "tot": 8.39, "router": 0.0, "rete_wiki": 2.18, "retrieval_tot": 2.19, "emma_gen": 4.03, "emma_calls": 1.0, "nli": 2.17, "esito": "emma_verificata", "retrieval_cpu": 0.01}
+{"pass": 0, "id": "n37", "tot": 4.53, "router": 0.0, "rete_wiki": 2.2, "retrieval_tot": 2.21, "emma_gen": 2.32, "emma_calls": 1.0, "esito": "fallback_estrattivo", "retrieval_cpu": 0.01}
+{"pass": 0, "id": "n40", "tot": 4.97, "router": 0.0, "rete_wiki": 2.55, "retrieval_tot": 2.55, "emma_gen": 1.5, "emma_calls": 1.0, "nli": 0.92, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n46", "tot": 8.23, "router": 0.0, "rete_wiki": 2.26, "retrieval_tot": 2.26, "emma_gen": 4.01, "emma_calls": 1.0, "nli": 1.95, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n52", "tot": 1.17, "router": 0.0, "rete_wiki": 1.09, "retrieval_tot": 1.09, "nli": 0.08, "esito": "sinon_verificato", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n58", "tot": 1.43, "router": 0.0, "rete_wiki": 1.43, "retrieval_tot": 1.43, "esito": "astensione", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n1", "tot": 0.63, "router": 0.0, "emma_gen": 0.63, "emma_calls": 1.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 1, "id": "n13", "tot": 0.8, "router": 0.0, "emma_gen": 0.8, "emma_calls": 1.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 1, "id": "n25", "tot": 4.42, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "emma_gen": 3.29, "emma_calls": 1.0, "nli": 1.12, "esito": "emma_verificata", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n28", "tot": 3.33, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "emma_gen": 2.1, "emma_calls": 1.0, "nli": 1.23, "esito": "emma_verificata", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n34", "tot": 5.34, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "emma_gen": 3.8, "emma_calls": 1.0, "nli": 1.54, "esito": "emma_verificata", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n37", "tot": 2.06, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.01, "emma_gen": 2.05, "emma_calls": 1.0, "esito": "fallback_estrattivo", "retrieval_cpu": 0.01}
+{"pass": 1, "id": "n40", "tot": 2.45, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "emma_gen": 1.69, "emma_calls": 1.0, "nli": 0.76, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n46", "tot": 5.68, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "emma_gen": 4.02, "emma_calls": 1.0, "nli": 1.66, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n52", "tot": 0.07, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "nli": 0.07, "esito": "sinon_verificato", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n58", "tot": 0.0, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "esito": "astensione", "retrieval_cpu": 0.0}
+PASS 0 {"tot": 4.578, "router": 0.0, "retrieval_tot": 1.62, "rete_wiki": 1.617, "emma_gen": 2.04, "emma_calls": 0.8, "nli": 0.917}
+PASS 1 {"tot": 2.478, "router": 0.0, "retrieval_tot": 0.001, "rete_wiki": 0.0, "emma_gen": 1.838, "emma_calls": 0.8, "nli": 0.638}

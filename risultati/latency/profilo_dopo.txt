@@ -1,0 +1,23 @@
+{"import_s": 0.08, "load_emma_s": 0.45, "load_nli_s": 3.75}
+{"pass": 0, "id": "n1", "tot": 0.7, "router": 0.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 0, "id": "n13", "tot": 0.77, "router": 0.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 0, "id": "n25", "tot": 6.75, "router": 0.0, "rete_wiki": 2.37, "retrieval_tot": 2.37, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n28", "tot": 3.71, "router": 0.0, "rete_wiki": 1.56, "retrieval_tot": 1.57, "nli": 0.67, "esito": "emma_verificata", "retrieval_cpu": 0.01}
+{"pass": 0, "id": "n34", "tot": 3.33, "router": 0.0, "rete_wiki": 1.3, "retrieval_tot": 1.3, "nli": 0.45, "esito": "emma_verificata", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n37", "tot": 4.83, "router": 0.0, "rete_wiki": 2.56, "retrieval_tot": 2.56, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n40", "tot": 3.56, "router": 0.0, "rete_wiki": 1.59, "retrieval_tot": 1.59, "nli": 0.35, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n46", "tot": 3.26, "router": 0.0, "rete_wiki": 1.39, "retrieval_tot": 1.4, "nli": 0.25, "esito": "fallback_estrattivo", "retrieval_cpu": 0.01}
+{"pass": 0, "id": "n52", "tot": 1.09, "router": 0.0, "rete_wiki": 1.02, "retrieval_tot": 1.02, "nli": 0.07, "esito": "sinon_verificato", "retrieval_cpu": 0.0}
+{"pass": 0, "id": "n58", "tot": 0.92, "router": 0.0, "rete_wiki": 0.92, "retrieval_tot": 0.92, "esito": "astensione", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n1", "tot": 0.67, "router": 0.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 1, "id": "n13", "tot": 0.77, "router": 0.0, "esito": "fallback_strumento", "retrieval_cpu": 0}
+{"pass": 1, "id": "n25", "tot": 4.28, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n28", "tot": 2.06, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "nli": 0.52, "esito": "emma_verificata", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n34", "tot": 2.06, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "nli": 0.42, "esito": "emma_verificata", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n37", "tot": 2.01, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.01, "esito": "fallback_estrattivo", "retrieval_cpu": 0.01}
+{"pass": 1, "id": "n40", "tot": 2.01, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "nli": 0.44, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n46", "tot": 1.96, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "nli": 0.26, "esito": "fallback_estrattivo", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n52", "tot": 0.05, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "nli": 0.04, "esito": "sinon_verificato", "retrieval_cpu": 0.0}
+{"pass": 1, "id": "n58", "tot": 0.0, "router": 0.0, "rete_wiki": 0.0, "retrieval_tot": 0.0, "esito": "astensione", "retrieval_cpu": 0.0}
+PASS 0 {"tot": 2.892, "router": 0.0, "retrieval_tot": 1.273, "rete_wiki": 1.271, "emma_gen": 0.0, "emma_calls": 0.0, "nli": 0.179}
+PASS 1 {"tot": 1.587, "router": 0.0, "retrieval_tot": 0.001, "rete_wiki": 0.0, "emma_gen": 0.0, "emma_calls": 0.0, "nli": 0.168}
