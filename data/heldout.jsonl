@@ -1,0 +1,24 @@
+{"id": "h1", "categoria": "aritmetica", "domanda": "Mi calcoli 13 per 7?", "gold": ["91"], "nota": "held-out"}
+{"id": "h2", "categoria": "aritmetica", "domanda": "Quanto fa 48 diviso 6?", "gold": ["8"], "nota": "held-out"}
+{"id": "h3", "categoria": "aritmetica", "domanda": "Quanto fa 250 più 175?", "gold": ["425"], "nota": "held-out"}
+{"id": "h4", "categoria": "aritmetica", "domanda": "Quanto è il 15% di 80?", "gold": ["12"], "nota": "held-out"}
+{"id": "h5", "categoria": "aritmetica", "domanda": "Moltiplica 11 per 11", "gold": ["121"], "nota": "held-out"}
+{"id": "h6", "categoria": "date", "domanda": "Che giorno della settimana era il 2 giugno 1946?", "gold": ["domenica"], "nota": "held-out"}
+{"id": "h7", "categoria": "date", "domanda": "Il 2028 sarà bisestile?", "gold": ["sì", "si"], "nota": "held-out"}
+{"id": "h8", "categoria": "date", "domanda": "Quanti giorni mancano dal 1 novembre 2026 al 25 dicembre 2026?", "gold": ["54"], "nota": "held-out"}
+{"id": "h9", "categoria": "unita", "domanda": "Quanti grammi ci sono in 3 etti?", "gold": ["300"], "nota": "held-out"}
+{"id": "h10", "categoria": "unita", "domanda": "Quanti centimetri ci sono in 2 metri?", "gold": ["200"], "nota": "held-out"}
+{"id": "h11", "categoria": "lettere", "domanda": "Quante e ci sono nella parola elefante?", "gold": ["3", "tre"], "nota": "held-out"}
+{"id": "h12", "categoria": "lettere", "domanda": "Quante o ci sono nella parola ottobre?", "gold": ["2", "due"], "nota": "held-out"}
+{"id": "h13", "categoria": "geografia", "domanda": "Qual è la capitale del Portogallo?", "gold": ["lisbona"], "nota": "held-out"}
+{"id": "h14", "categoria": "geografia", "domanda": "Qual è la capitale della Grecia?", "gold": ["atene"], "nota": "held-out"}
+{"id": "h15", "categoria": "geografia", "domanda": "Qual è il capoluogo della Toscana?", "gold": ["firenze"], "nota": "held-out"}
+{"id": "h16", "categoria": "geografia", "domanda": "In quale regione si trova Bari?", "gold": ["puglia"], "nota": "held-out"}
+{"id": "h17", "categoria": "storia", "domanda": "In che anno è morto Giulio Cesare?", "gold": ["44"], "nota": "held-out"}
+{"id": "h18", "categoria": "storia", "domanda": "In che anno è stato firmato il Trattato di Roma che istituì la CEE?", "gold": ["1957"], "nota": "held-out"}
+{"id": "h19", "categoria": "cultura", "domanda": "Chi ha scritto il Decameron?", "gold": ["boccaccio"], "nota": "held-out"}
+{"id": "h20", "categoria": "cultura", "domanda": "Chi ha dipinto L'ultima cena di Milano?", "gold": ["leonardo"], "nota": "held-out"}
+{"id": "h21", "categoria": "scienza", "domanda": "Qual è il simbolo chimico del ferro?", "gold": ["fe"], "nota": "held-out"}
+{"id": "h22", "categoria": "scienza", "domanda": "Qual è il pianeta rosso?", "gold": ["marte"], "nota": "held-out"}
+{"id": "h23", "categoria": "senso_comune", "domanda": "Un pinguino sa volare?", "gold": ["no"], "nota": "held-out"}
+{"id": "h24", "categoria": "senso_comune", "domanda": "Quante ore ha un giorno?", "gold": ["24", "ventiquattro"], "nota": "held-out"}

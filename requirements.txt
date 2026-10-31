@@ -1,0 +1,8 @@
+llama_cpp_python==0.3.36
+onnxruntime==1.31.1
+onnx==1.23.2
+sentencepiece==0.2.2
+torch==2.15.0
+transformers==5.22.1
+requests==2.34.2
+huggingface_hub==2.4.0

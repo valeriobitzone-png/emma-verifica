@@ -1,0 +1,22 @@
+{"id": "k1", "categoria": "aritmetica", "domanda": "Fammi il conto: 17 per 3", "gold": ["51"], "nota": "held-out 2"}
+{"id": "k2", "categoria": "aritmetica", "domanda": "Quanto viene 90 diviso 4?", "gold": ["22,5", "22.5"], "nota": "held-out 2"}
+{"id": "k3", "categoria": "aritmetica", "domanda": "Quanto fa 7 al quadrato?", "gold": ["49"], "nota": "held-out 2"}
+{"id": "k4", "categoria": "aritmetica", "domanda": "Se ho 35 euro e ne spendo 12, quanti me ne restano?", "gold": ["23"], "nota": "held-out 2"}
+{"id": "k5", "categoria": "date", "domanda": "In che giorno della settimana cade il 1 gennaio 2027?", "gold": ["venerdì", "venerdi"], "nota": "held-out 2"}
+{"id": "k6", "categoria": "date", "domanda": "Quanti giorni ha aprile?", "gold": ["30", "trenta"], "nota": "held-out 2"}
+{"id": "k7", "categoria": "date", "domanda": "Quanti anni ha una persona nata nel 1990 nel 2026?", "gold": ["36"], "nota": "held-out 2"}
+{"id": "k8", "categoria": "unita", "domanda": "Quanti metri sono 2,5 chilometri?", "gold": ["2500", "2.500"], "nota": "held-out 2"}
+{"id": "k9", "categoria": "unita", "domanda": "Quante ore ci sono in 2 giorni?", "gold": ["48"], "nota": "held-out 2"}
+{"id": "k10", "categoria": "lettere", "domanda": "Quante l ci sono nella parola collana?", "gold": ["2", "due"], "nota": "held-out 2"}
+{"id": "k11", "categoria": "geografia", "domanda": "Qual è la capitale dell'Irlanda?", "gold": ["dublino"], "nota": "held-out 2"}
+{"id": "k12", "categoria": "geografia", "domanda": "Qual è la capitale della Svezia?", "gold": ["stoccolma"], "nota": "held-out 2"}
+{"id": "k13", "categoria": "geografia", "domanda": "Qual è il capoluogo del Piemonte?", "gold": ["torino"], "nota": "held-out 2"}
+{"id": "k14", "categoria": "geografia", "domanda": "In quale regione si trova Perugia?", "gold": ["umbria"], "nota": "held-out 2"}
+{"id": "k15", "categoria": "storia", "domanda": "In che anno è stato eletto papa Francesco?", "gold": ["2013"], "nota": "held-out 2"}
+{"id": "k16", "categoria": "storia", "domanda": "Chi ha scoperto la penicillina?", "gold": ["fleming"], "nota": "held-out 2"}
+{"id": "k17", "categoria": "cultura", "domanda": "Chi ha scritto Il Principe?", "gold": ["machiavelli"], "nota": "held-out 2"}
+{"id": "k18", "categoria": "cultura", "domanda": "Chi ha composto Il barbiere di Siviglia?", "gold": ["rossini"], "nota": "held-out 2"}
+{"id": "k19", "categoria": "scienza", "domanda": "Qual è il simbolo chimico dell'argento?", "gold": ["ag"], "nota": "held-out 2"}
+{"id": "k20", "categoria": "scienza", "domanda": "Quanti cromosomi ha una cellula umana?", "gold": ["46"], "nota": "held-out 2"}
+{"id": "k21", "categoria": "senso_comune", "domanda": "Un gatto ha le piume?", "gold": ["no"], "nota": "held-out 2"}
+{"id": "k22", "categoria": "senso_comune", "domanda": "Il ghiaccio è acqua allo stato solido?", "gold": ["sì", "si"], "nota": "held-out 2"}

@@ -1,0 +1,60 @@
+{"id": "n1", "categoria": "aritmetica", "domanda": "Quanto fa 37 per 6?", "gold": ["222"], "nota": "held-out 3"}
+{"id": "n2", "categoria": "aritmetica", "domanda": "Quanto fa 256 diviso 16?", "gold": ["16", "sedici"], "nota": "held-out 3"}
+{"id": "n3", "categoria": "aritmetica", "domanda": "Calcola 487 più 268", "gold": ["755"], "nota": "held-out 3"}
+{"id": "n4", "categoria": "aritmetica", "domanda": "Quanto fa 905 meno 478?", "gold": ["427"], "nota": "held-out 3"}
+{"id": "n5", "categoria": "aritmetica", "domanda": "Qual è la radice quadrata di 169?", "gold": ["13", "tredici"], "nota": "held-out 3"}
+{"id": "n6", "categoria": "aritmetica", "domanda": "Quanto è il 30% di 250?", "gold": ["75"], "nota": "held-out 3"}
+{"id": "n7", "categoria": "aritmetica", "domanda": "Quanto fa 3 elevato alla 5?", "gold": ["243"], "nota": "held-out 3"}
+{"id": "n8", "categoria": "aritmetica", "domanda": "Quanto fa 15 al quadrato?", "gold": ["225"], "nota": "held-out 3"}
+{"id": "n9", "categoria": "aritmetica", "domanda": "Ho 50 euro e compro un libro da 18 euro: quanto mi resta?", "gold": ["32"], "nota": "held-out 3"}
+{"id": "n10", "categoria": "date", "domanda": "Che giorno della settimana era il 20 luglio 1969?", "gold": ["domenica"], "nota": "held-out 3"}
+{"id": "n11", "categoria": "date", "domanda": "Il 1900 era un anno bisestile?", "gold": ["no"], "nota": "held-out 3"}
+{"id": "n12", "categoria": "date", "domanda": "Quanti giorni ha novembre nel 2027?", "gold": ["30", "trenta"], "nota": "held-out 3"}
+{"id": "n13", "categoria": "date", "domanda": "Quanti giorni ci sono tra il 10 gennaio 2026 e il 20 febbraio 2026?", "gold": ["41"], "nota": "held-out 3"}
+{"id": "n14", "categoria": "date", "domanda": "Quanti anni sono passati dal 1969 al 2026?", "gold": ["57"], "nota": "held-out 3"}
+{"id": "n15", "categoria": "date", "domanda": "Quanti giorni ha luglio?", "gold": ["31", "trentuno"], "nota": "held-out 3"}
+{"id": "n16", "categoria": "unita", "domanda": "Quanti millimetri sono 4 centimetri?", "gold": ["40"], "nota": "held-out 3"}
+{"id": "n17", "categoria": "unita", "domanda": "Quanti chilometri sono 7500 metri?", "gold": ["7,5", "7.5"], "nota": "held-out 3"}
+{"id": "n18", "categoria": "unita", "domanda": "Quanti minuti ci sono in 2,5 ore?", "gold": ["150"], "nota": "held-out 3"}
+{"id": "n19", "categoria": "unita", "domanda": "Quanti centilitri sono 2 litri?", "gold": ["200"], "nota": "held-out 3"}
+{"id": "n20", "categoria": "unita", "domanda": "Quante ore sono 7 giorni?", "gold": ["168"], "nota": "held-out 3"}
+{"id": "n21", "categoria": "lettere", "domanda": "Quante t ci sono nella parola tetto?", "gold": ["3", "tre"], "nota": "held-out 3"}
+{"id": "n22", "categoria": "lettere", "domanda": "Quante lettere ha la parola calendario?", "gold": ["10", "dieci"], "nota": "held-out 3"}
+{"id": "n23", "categoria": "lettere", "domanda": "Quante i ci sono nella parola Mississippi?", "gold": ["4", "quattro"], "nota": "held-out 3"}
+{"id": "n24", "categoria": "geografia", "domanda": "Qual è la capitale della Polonia?", "gold": ["varsavia"], "nota": "held-out 3"}
+{"id": "n25", "categoria": "geografia", "domanda": "Qual è la capitale dell'Egitto?", "gold": ["cairo"], "nota": "held-out 3"}
+{"id": "n26", "categoria": "geografia", "domanda": "Qual è la capitale dell'Argentina?", "gold": ["buenos aires"], "nota": "held-out 3"}
+{"id": "n27", "categoria": "geografia", "domanda": "Qual è il capoluogo del Veneto?", "gold": ["venezia"], "nota": "held-out 3"}
+{"id": "n28", "categoria": "geografia", "domanda": "In quale regione si trova Matera?", "gold": ["basilicata"], "nota": "held-out 3"}
+{"id": "n29", "categoria": "geografia", "domanda": "Qual è il lago più profondo d'Italia?", "gold": ["como", "lario"], "nota": "held-out 3"}
+{"id": "n30", "categoria": "geografia", "domanda": "Qual è l'oceano più grande della Terra?", "gold": ["pacifico"], "nota": "held-out 3"}
+{"id": "n31", "categoria": "geografia", "domanda": "In quale continente si trova il Kenya?", "gold": ["africa"], "nota": "held-out 3"}
+{"id": "n32", "categoria": "storia", "domanda": "In che anno è avvenuta la presa della Bastiglia?", "gold": ["1789"], "nota": "held-out 3"}
+{"id": "n33", "categoria": "storia", "domanda": "Chi fu il primo imperatore romano?", "gold": ["augusto", "ottaviano"], "nota": "held-out 3"}
+{"id": "n34", "categoria": "storia", "domanda": "In che anno è stata distrutta Pompei dall'eruzione del Vesuvio?", "gold": ["79"], "nota": "held-out 3"}
+{"id": "n35", "categoria": "storia", "domanda": "Chi scrisse le 95 tesi nel 1517?", "gold": ["lutero"], "nota": "held-out 3"}
+{"id": "n36", "categoria": "storia", "domanda": "In che anno è affondato il Titanic?", "gold": ["1912"], "nota": "held-out 3"}
+{"id": "n37", "categoria": "storia", "domanda": "Chi era il leader dell'Unione Sovietica durante la seconda guerra mondiale?", "gold": ["stalin"], "nota": "held-out 3"}
+{"id": "n38", "categoria": "cultura", "domanda": "Chi ha dipinto La nascita di Venere?", "gold": ["botticelli"], "nota": "held-out 3"}
+{"id": "n39", "categoria": "cultura", "domanda": "Chi ha scritto Il Canzoniere (Rerum vulgarium fragmenta)?", "gold": ["petrarca"], "nota": "held-out 3"}
+{"id": "n40", "categoria": "cultura", "domanda": "Chi ha composto le Quattro stagioni?", "gold": ["vivaldi"], "nota": "held-out 3"}
+{"id": "n41", "categoria": "cultura", "domanda": "Chi ha scritto Il fu Mattia Pascal?", "gold": ["pirandello"], "nota": "held-out 3"}
+{"id": "n42", "categoria": "cultura", "domanda": "Chi ha scritto Romeo e Giulietta?", "gold": ["shakespeare"], "nota": "held-out 3"}
+{"id": "n43", "categoria": "cultura", "domanda": "Chi ha diretto il film La dolce vita?", "gold": ["fellini"], "nota": "held-out 3"}
+{"id": "n44", "categoria": "scienza", "domanda": "Qual è il simbolo chimico del potassio?", "gold": ["k"], "nota": "held-out 3"}
+{"id": "n45", "categoria": "scienza", "domanda": "Qual è il satellite più grande di Saturno?", "gold": ["titano"], "nota": "held-out 3"}
+{"id": "n46", "categoria": "scienza", "domanda": "Quanti pianeti ci sono nel sistema solare?", "gold": ["8", "otto"], "nota": "held-out 3"}
+{"id": "n47", "categoria": "scienza", "domanda": "Qual è l'osso più lungo del corpo umano?", "gold": ["femore"], "nota": "held-out 3"}
+{"id": "n48", "categoria": "scienza", "domanda": "Quale gas assorbono le piante durante la fotosintesi?", "gold": ["anidride carbonica", "diossido di carbonio", "co2"], "nota": "held-out 3"}
+{"id": "n49", "categoria": "scienza", "domanda": "Chi ha formulato la legge di gravitazione universale?", "gold": ["newton"], "nota": "held-out 3"}
+{"id": "n50", "categoria": "scienza", "domanda": "Qual è il metallo liquido a temperatura ambiente?", "gold": ["mercurio"], "nota": "held-out 3"}
+{"id": "n51", "categoria": "senso_comune", "domanda": "Un pesce può vivere fuori dall'acqua per giorni?", "gold": ["no"], "nota": "held-out 3"}
+{"id": "n52", "categoria": "senso_comune", "domanda": "Il fuoco è freddo?", "gold": ["no"], "nota": "held-out 3"}
+{"id": "n53", "categoria": "senso_comune", "domanda": "Le mucche producono latte?", "gold": ["sì", "si"], "nota": "held-out 3"}
+{"id": "n54", "categoria": "senso_comune", "domanda": "Un elefante è più piccolo di un topo?", "gold": ["no"], "nota": "held-out 3"}
+{"id": "n55", "categoria": "senso_comune", "domanda": "La neve è fredda?", "gold": ["sì", "si"], "nota": "held-out 3"}
+{"id": "n56", "categoria": "senso_comune", "domanda": "Si può respirare sott'acqua senza attrezzatura?", "gold": ["no"], "nota": "held-out 3"}
+{"id": "n57", "categoria": "senso_comune", "domanda": "Un triangolo ha quattro lati?", "gold": ["no"], "nota": "held-out 3"}
+{"id": "n58", "categoria": "senso_comune", "domanda": "Gli uccelli hanno le piume?", "gold": ["sì", "si"], "nota": "held-out 3"}
+{"id": "n59", "categoria": "senso_comune", "domanda": "Il ferro galleggia sull'acqua?", "gold": ["no"], "nota": "held-out 3"}
+{"id": "n60", "categoria": "senso_comune", "domanda": "Le api producono il miele?", "gold": ["sì", "si"], "nota": "held-out 3"}

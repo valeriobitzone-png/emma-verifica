@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+model/
+cache/
+*.gguf
+*.onnx
+*.onnx.data
+*.log
+/baseline*.jsonl
+/migliorata*.jsonl
+/report*.json
+.env

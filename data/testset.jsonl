@@ -1,0 +1,83 @@
+{"id": 1, "categoria": "aritmetica", "domanda": "Quanto fa 7 per 8?", "gold": ["56"], "nota": "tabelline virali"}
+{"id": 2, "categoria": "aritmetica", "domanda": "Quanto fa 6 per 7?", "gold": ["42"], "nota": ""}
+{"id": 3, "categoria": "aritmetica", "domanda": "Quanto fa 9 per 9?", "gold": ["81"], "nota": ""}
+{"id": 4, "categoria": "aritmetica", "domanda": "Quanto fa 12 per 12?", "gold": ["144"], "nota": ""}
+{"id": 5, "categoria": "aritmetica", "domanda": "Quanto fa 8 per 7?", "gold": ["56"], "nota": ""}
+{"id": 6, "categoria": "aritmetica", "domanda": "Quanto fa 15 più 27?", "gold": ["42"], "nota": ""}
+{"id": 7, "categoria": "aritmetica", "domanda": "Quanto fa 100 meno 37?", "gold": ["63"], "nota": ""}
+{"id": 8, "categoria": "aritmetica", "domanda": "Quanto fa 144 diviso 12?", "gold": ["12"], "nota": ""}
+{"id": 9, "categoria": "aritmetica", "domanda": "Quanto fa 2 elevato alla 10?", "gold": ["1024"], "nota": ""}
+{"id": 10, "categoria": "aritmetica", "domanda": "Qual è la radice quadrata di 81?", "gold": ["9"], "nota": ""}
+{"id": 11, "categoria": "aritmetica", "domanda": "Quanto fa 25 per 4?", "gold": ["100"], "nota": ""}
+{"id": 12, "categoria": "aritmetica", "domanda": "Quanto è il 20% di 150?", "gold": ["30"], "nota": ""}
+{"id": 13, "categoria": "aritmetica", "domanda": "Quanto fa 3 + 5 * 2?", "gold": ["13"], "nota": ""}
+{"id": 14, "categoria": "aritmetica", "domanda": "Quanto fa 1000 diviso 8?", "gold": ["125"], "nota": ""}
+{"id": 15, "categoria": "date", "domanda": "Che giorno della settimana era il 1 gennaio 2000?", "gold": ["sabato"], "nota": ""}
+{"id": 16, "categoria": "date", "domanda": "Quanti giorni ha febbraio nel 2024?", "gold": ["29"], "nota": ""}
+{"id": 17, "categoria": "date", "domanda": "Il 2100 è un anno bisestile?", "gold": ["no"], "nota": ""}
+{"id": 18, "categoria": "date", "domanda": "Quanti giorni ci sono tra il 1 marzo 2026 e il 1 aprile 2026?", "gold": ["31"], "nota": ""}
+{"id": 19, "categoria": "date", "domanda": "Che giorno della settimana sarà il 25 dicembre 2026?", "gold": ["venerdì", "venerdi"], "nota": ""}
+{"id": 20, "categoria": "date", "domanda": "Quanti anni sono passati dal 1861 al 2026?", "gold": ["165"], "nota": ""}
+{"id": 21, "categoria": "date", "domanda": "Quanti giorni ha un anno bisestile?", "gold": ["366"], "nota": ""}
+{"id": 22, "categoria": "unita", "domanda": "Quanti metri ci sono in 3 chilometri?", "gold": ["3000", "3.000"], "nota": ""}
+{"id": 23, "categoria": "unita", "domanda": "Quanti grammi sono 2,5 chilogrammi?", "gold": ["2500", "2.500"], "nota": ""}
+{"id": 24, "categoria": "unita", "domanda": "Quanti minuti ci sono in 3 ore?", "gold": ["180"], "nota": ""}
+{"id": 25, "categoria": "unita", "domanda": "Quanti secondi ci sono in un'ora?", "gold": ["3600", "3.600"], "nota": ""}
+{"id": 26, "categoria": "unita", "domanda": "Quanti centimetri sono 1,5 metri?", "gold": ["150"], "nota": ""}
+{"id": 27, "categoria": "unita", "domanda": "Quanti millilitri ci sono in 2 litri?", "gold": ["2000", "2.000"], "nota": ""}
+{"id": 28, "categoria": "unita", "domanda": "Pesa di più un chilo di pane o un chilo di piume?", "gold": ["uguale", "stesso", "stessa", "entrambi", "nessuno", "pesano uguale", "lo stesso"], "nota": "virale Emma-5 (ANSA 25/06/2026)"}
+{"id": 29, "categoria": "lettere", "domanda": "Quante r ci sono nella parola giallo?", "gold": ["0", "zero", "nessuna"], "nota": "virale"}
+{"id": 30, "categoria": "lettere", "domanda": "Quante a ci sono nella parola banana?", "gold": ["3", "tre"], "nota": ""}
+{"id": 31, "categoria": "lettere", "domanda": "Quante lettere ha la parola Italia?", "gold": ["6", "sei"], "nota": ""}
+{"id": 32, "categoria": "lettere", "domanda": "Quante s ci sono nella parola sasso?", "gold": ["3", "tre"], "nota": ""}
+{"id": 33, "categoria": "lettere", "domanda": "Quante r ci sono nella parola ferrari?", "gold": ["3", "tre"], "nota": ""}
+{"id": 34, "categoria": "geografia", "domanda": "Qual è la capitale d'Italia?", "gold": ["roma"], "nota": "virale DDay 14/10/2026"}
+{"id": 35, "categoria": "geografia", "domanda": "Qual è la capitale della Francia?", "gold": ["parigi"], "nota": ""}
+{"id": 36, "categoria": "geografia", "domanda": "Qual è la capitale della Germania?", "gold": ["berlino"], "nota": ""}
+{"id": 37, "categoria": "geografia", "domanda": "Qual è la capitale della Spagna?", "gold": ["madrid"], "nota": ""}
+{"id": 38, "categoria": "geografia", "domanda": "Qual è la capitale del Giappone?", "gold": ["tokyo", "tokio"], "nota": ""}
+{"id": 39, "categoria": "geografia", "domanda": "Qual è la capitale dell'Australia?", "gold": ["canberra"], "nota": ""}
+{"id": 40, "categoria": "geografia", "domanda": "Qual è la capitale della Croazia?", "gold": ["zagabria"], "nota": ""}
+{"id": 41, "categoria": "geografia", "domanda": "Qual è il fiume più lungo d'Italia?", "gold": ["po"], "nota": ""}
+{"id": 42, "categoria": "geografia", "domanda": "Qual è la montagna più alta d'Europa occidentale, al confine tra Italia e Francia?", "gold": ["monte bianco"], "nota": ""}
+{"id": 43, "categoria": "geografia", "domanda": "Qual è il capoluogo della Sicilia?", "gold": ["palermo"], "nota": ""}
+{"id": 44, "categoria": "geografia", "domanda": "Qual è il capoluogo della Lombardia?", "gold": ["milano"], "nota": ""}
+{"id": 45, "categoria": "geografia", "domanda": "Qual è il lago più grande d'Italia?", "gold": ["garda"], "nota": ""}
+{"id": 46, "categoria": "geografia", "domanda": "In quale regione si trova Napoli?", "gold": ["campania"], "nota": ""}
+{"id": 47, "categoria": "geografia", "domanda": "Qual è il vulcano attivo più alto d'Europa?", "gold": ["etna"], "nota": ""}
+{"id": 48, "categoria": "geografia", "domanda": "Quante regioni ha l'Italia?", "gold": ["20", "venti"], "nota": ""}
+{"id": 49, "categoria": "storia", "domanda": "In che anno è caduto il muro di Berlino?", "gold": ["1989"], "nota": ""}
+{"id": 50, "categoria": "storia", "domanda": "In che anno è stata proclamata l'Unità d'Italia?", "gold": ["1861"], "nota": ""}
+{"id": 51, "categoria": "storia", "domanda": "In che anno Roma è diventata capitale d'Italia?", "gold": ["1871"], "nota": "precisazione 1871 (DDay)"}
+{"id": 52, "categoria": "storia", "domanda": "In che anno Cristoforo Colombo arrivò in America?", "gold": ["1492"], "nota": ""}
+{"id": 53, "categoria": "storia", "domanda": "In che anno è nata la Repubblica Italiana?", "gold": ["1946"], "nota": ""}
+{"id": 54, "categoria": "storia", "domanda": "In che anno è iniziata la prima guerra mondiale?", "gold": ["1914"], "nota": ""}
+{"id": 55, "categoria": "storia", "domanda": "In che anno è finita la seconda guerra mondiale?", "gold": ["1945"], "nota": ""}
+{"id": 56, "categoria": "storia", "domanda": "Chi è stato il primo presidente della Repubblica Italiana?", "gold": ["de nicola"], "nota": ""}
+{"id": 57, "categoria": "storia", "domanda": "Chi guidò la spedizione dei Mille?", "gold": ["garibaldi"], "nota": ""}
+{"id": 58, "categoria": "storia", "domanda": "In che anno è entrata in vigore la Costituzione italiana?", "gold": ["1948"], "nota": ""}
+{"id": 59, "categoria": "cultura", "domanda": "Chi ha scritto la Divina Commedia?", "gold": ["dante"], "nota": ""}
+{"id": 60, "categoria": "cultura", "domanda": "Chi ha scritto I promessi sposi?", "gold": ["manzoni"], "nota": ""}
+{"id": 61, "categoria": "cultura", "domanda": "Chi ha dipinto la Gioconda?", "gold": ["leonardo"], "nota": ""}
+{"id": 62, "categoria": "cultura", "domanda": "Chi ha composto La Traviata?", "gold": ["verdi"], "nota": ""}
+{"id": 63, "categoria": "cultura", "domanda": "Chi ha scolpito il David conservato a Firenze?", "gold": ["michelangelo"], "nota": ""}
+{"id": 64, "categoria": "cultura", "domanda": "Chi ha scritto Il nome della rosa?", "gold": ["eco"], "nota": ""}
+{"id": 65, "categoria": "cultura", "domanda": "Chi ha scritto Pinocchio?", "gold": ["collodi"], "nota": ""}
+{"id": 66, "categoria": "cultura", "domanda": "Chi ha dipinto la Cappella Sistina?", "gold": ["michelangelo"], "nota": ""}
+{"id": 67, "categoria": "scienza", "domanda": "Qual è il simbolo chimico dell'oro?", "gold": ["au"], "nota": ""}
+{"id": 68, "categoria": "scienza", "domanda": "Qual è il pianeta più vicino al Sole?", "gold": ["mercurio"], "nota": ""}
+{"id": 69, "categoria": "scienza", "domanda": "Qual è il pianeta più grande del sistema solare?", "gold": ["giove"], "nota": ""}
+{"id": 70, "categoria": "scienza", "domanda": "A quale temperatura bolle l'acqua a livello del mare in gradi Celsius?", "gold": ["100"], "nota": ""}
+{"id": 71, "categoria": "scienza", "domanda": "Qual è la formula chimica dell'acqua?", "gold": ["h2o", "h₂o"], "nota": ""}
+{"id": 72, "categoria": "scienza", "domanda": "Chi ha formulato la teoria della relatività?", "gold": ["einstein"], "nota": ""}
+{"id": 73, "categoria": "scienza", "domanda": "Chi ha inventato la radio secondo la tradizione italiana?", "gold": ["marconi"], "nota": ""}
+{"id": 74, "categoria": "scienza", "domanda": "Quante zampe ha un ragno?", "gold": ["8", "otto"], "nota": ""}
+{"id": 75, "categoria": "scienza", "domanda": "Qual è il satellite naturale della Terra?", "gold": ["luna"], "nota": ""}
+{"id": 76, "categoria": "senso_comune", "domanda": "I cani possono volare?", "gold": ["no"], "nota": "virale Emma-5/6 (ANSA, DDay)"}
+{"id": 77, "categoria": "senso_comune", "domanda": "Ryanair è uno yogurt o una compagnia aerea?", "gold": ["compagnia aerea"], "nota": "virale (DDay)"}
+{"id": 78, "categoria": "senso_comune", "domanda": "Quante zampe ha un cane?", "gold": ["4", "quattro"], "nota": ""}
+{"id": 79, "categoria": "senso_comune", "domanda": "Il sole sorge a est o a ovest?", "gold": ["est"], "nota": ""}
+{"id": 80, "categoria": "senso_comune", "domanda": "Di che colore è il cielo in una giornata serena?", "gold": ["azzurro", "blu", "celeste"], "nota": ""}
+{"id": 81, "categoria": "senso_comune", "domanda": "Quanti giorni ci sono in una settimana?", "gold": ["7", "sette"], "nota": ""}
+{"id": 82, "categoria": "senso_comune", "domanda": "Quanti mesi ci sono in un anno?", "gold": ["12", "dodici"], "nota": ""}
+{"id": 83, "categoria": "senso_comune", "domanda": "Una balena è un pesce o un mammifero?", "gold": ["mammifero"], "nota": ""}

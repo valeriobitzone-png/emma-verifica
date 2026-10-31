@@ -1,0 +1,64 @@
+{
+  "baseline": {
+    "n": 24,
+    "accuratezza": 0.208,
+    "allucinazioni": 0.75,
+    "astensioni": 0.042,
+    "citazioni_non_pertinenti": 0.0,
+    "latenza_media_s": 0.84,
+    "latenza_p95_s": 1.28
+  },
+  "migliorata": {
+    "n": 24,
+    "accuratezza": 0.833,
+    "allucinazioni": 0.042,
+    "astensioni": 0.125,
+    "citazioni_non_pertinenti": 0.0,
+    "latenza_media_s": 2.4,
+    "latenza_p95_s": 5.5
+  },
+  "per_categoria": {
+    "aritmetica": {
+      "baseline": 0.0,
+      "migliorata": 1.0
+    },
+    "date": {
+      "baseline": 0.0,
+      "migliorata": 1.0
+    },
+    "unita": {
+      "baseline": 0.0,
+      "migliorata": 1.0
+    },
+    "lettere": {
+      "baseline": 0.0,
+      "migliorata": 1.0
+    },
+    "geografia": {
+      "baseline": 0.75,
+      "migliorata": 1.0
+    },
+    "storia": {
+      "baseline": 0.5,
+      "migliorata": 0.5
+    },
+    "cultura": {
+      "baseline": 0.5,
+      "migliorata": 1.0
+    },
+    "scienza": {
+      "baseline": 0.0,
+      "migliorata": 0.5
+    },
+    "senso_comune": {
+      "baseline": 0.0,
+      "migliorata": 0.0
+    }
+  },
+  "esiti_pipeline": {
+    "fallback_strumento": 12,
+    "emma_verificata": 6,
+    "fallback_estrattivo": 3,
+    "astensione": 3
+  }
+}
